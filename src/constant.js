@@ -1,7 +1,7 @@
 // src/constants.js
 export const CONTRACT_ADDRESS = "0xb4a441f3ca7da3161d1fa95f050cf8644f58bdcf";
 
-export const contractABI = [
+export const CONTRACT_ABI = [
   {
     inputs: [],
     stateMutability: "nonpayable",

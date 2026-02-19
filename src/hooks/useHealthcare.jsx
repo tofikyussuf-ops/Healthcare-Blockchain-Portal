@@ -1,7 +1,7 @@
 // src/hooks/useHealthcare.js
-import { useState, useEffect, useCallback } from "react";
 import { ethers } from "ethers";
-import { CONTRACT_ADDRESS, CONTRACT_ABI } from "../constants";
+import { useCallback, useEffect, useState } from "react";
+import { CONTRACT_ABI, CONTRACT_ADDRESS } from "../constant";
 
 export function useHealthcare() {
   const [state, setState] = useState({
